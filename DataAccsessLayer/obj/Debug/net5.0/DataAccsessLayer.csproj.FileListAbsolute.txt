@@ -1,4 +1,6 @@
 C:\Users\selim\Desktop\MyPortfolio\DataAccsessLayer\bin\Debug\net5.0\DataAccsessLayer.deps.json
+C:\Users\selim\Desktop\MyPortfolio\DataAccsessLayer\bin\Debug\net5.0\DataAccsessLayer.runtimeconfig.json
+C:\Users\selim\Desktop\MyPortfolio\DataAccsessLayer\bin\Debug\net5.0\DataAccsessLayer.runtimeconfig.dev.json
 C:\Users\selim\Desktop\MyPortfolio\DataAccsessLayer\bin\Debug\net5.0\DataAccsessLayer.dll
 C:\Users\selim\Desktop\MyPortfolio\DataAccsessLayer\bin\Debug\net5.0\ref\DataAccsessLayer.dll
 C:\Users\selim\Desktop\MyPortfolio\DataAccsessLayer\bin\Debug\net5.0\DataAccsessLayer.pdb
@@ -13,3 +15,4 @@ C:\Users\selim\Desktop\MyPortfolio\DataAccsessLayer\obj\Debug\net5.0\DataAccsess
 C:\Users\selim\Desktop\MyPortfolio\DataAccsessLayer\obj\Debug\net5.0\DataAccsessLayer.dll
 C:\Users\selim\Desktop\MyPortfolio\DataAccsessLayer\obj\Debug\net5.0\ref\DataAccsessLayer.dll
 C:\Users\selim\Desktop\MyPortfolio\DataAccsessLayer\obj\Debug\net5.0\DataAccsessLayer.pdb
+C:\Users\selim\Desktop\MyPortfolio\DataAccsessLayer\obj\Debug\net5.0\DataAccsessLayer.genruntimeconfig.cache
