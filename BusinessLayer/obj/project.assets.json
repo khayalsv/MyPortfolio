@@ -1,0 +1,112 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "DataAccsessLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "EntityLayer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataAccsessLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccsessLayer.dll": {}
+        }
+      },
+      "EntityLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/EntityLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EntityLayer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DataAccsessLayer/1.0.0": {
+      "type": "project",
+      "path": "../DataAccsessLayer/DataAccsessLayer.csproj",
+      "msbuildProject": "../DataAccsessLayer/DataAccsessLayer.csproj"
+    },
+    "EntityLayer/1.0.0": {
+      "type": "project",
+      "path": "../EntityLayer/EntityLayer.csproj",
+      "msbuildProject": "../EntityLayer/EntityLayer.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "DataAccsessLayer >= 1.0.0",
+      "EntityLayer >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\selim\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\selim\\Desktop\\MyPortfolio\\BusinessLayer\\BusinessLayer.csproj",
+      "projectName": "BusinessLayer",
+      "projectPath": "C:\\Users\\selim\\Desktop\\MyPortfolio\\BusinessLayer\\BusinessLayer.csproj",
+      "packagesPath": "C:\\Users\\selim\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\selim\\Desktop\\MyPortfolio\\BusinessLayer\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\selim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\selim\\Desktop\\MyPortfolio\\DataAccsessLayer\\DataAccsessLayer.csproj": {
+              "projectPath": "C:\\Users\\selim\\Desktop\\MyPortfolio\\DataAccsessLayer\\DataAccsessLayer.csproj"
+            },
+            "C:\\Users\\selim\\Desktop\\MyPortfolio\\EntityLayer\\EntityLayer.csproj": {
+              "projectPath": "C:\\Users\\selim\\Desktop\\MyPortfolio\\EntityLayer\\EntityLayer.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
