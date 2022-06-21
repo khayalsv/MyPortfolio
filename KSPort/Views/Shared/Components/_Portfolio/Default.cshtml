@@ -1,9 +1,16 @@
-﻿<div class="dizme_tm_section" id="portfolio">
+﻿@model List<Portfolio>
+
+
+@foreach (var item in Model)
+{
+
+
+<div class="dizme_tm_section" id="portfolio">
     <div class="dizme_tm_portfolio">
         <div class="container">
             <div class="dizme_tm_main_title" data-align="center">
                 <span>Portfolio</span>
-                <h3>My Amazing Works</h3>
+                <h3>@item.Image</h3>
                 <p>Most common methods for designing websites that work well on desktop is responsive and adaptive design</p>
             </div>
             
@@ -155,4 +162,6 @@
         <div class="brush_1 wow zoomIn" data-wow-duration="1s"><img src="~/img/brushes/portfolio/1.png" alt="" /></div>
         <div class="brush_2 wow fadeInRight" data-wow-duration="1s"><img src="~/img/brushes/portfolio/2.png" alt="" /></div>
     </div>
-</div>
+</div>  
+
+ }

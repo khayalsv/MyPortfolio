@@ -30,7 +30,7 @@ namespace BusinessLayer.Concrete
 
         public Home TGetByID(int id)
         {
-           return  _homeDal.GetById(id);
+            return _homeDal.GetById(id);
         }
 
         public List<Home> TGetList()
@@ -40,7 +40,7 @@ namespace BusinessLayer.Concrete
 
         public void TUpdate(Home t)
         {
-           _homeDal.Update(t);
+            _homeDal.Update(t);
         }
     }
 }

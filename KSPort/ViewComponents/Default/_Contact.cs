@@ -1,12 +1,16 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BusinessLayer.Concrete;
+using DataAccsessLayer.EntityFramework;
+using Microsoft.AspNetCore.Mvc;
 
 namespace KSPort.ViewComponents.Default
 {
     public class _Contact : ViewComponent
     {
+        ContactManager contactManager = new ContactManager(new EfContactDal());
         public IViewComponentResult Invoke()
         {
-            return View();
+            var values = contactManager.TGetList();
+            return View(values);
         }
     }
 }

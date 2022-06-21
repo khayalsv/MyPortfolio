@@ -1,4 +1,4 @@
-﻿using DataAccessLayer.Abstract;
+﻿using DataAccsessLayer.Abstract;
 using DataAccsessLayer.Concrete;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccessLayer.Repository
+namespace DataAccsessLayer.Repository
 {
     public class GenericRepository<T> : IGenericDal<T> where T : class
     {

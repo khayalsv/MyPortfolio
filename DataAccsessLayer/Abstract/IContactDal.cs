@@ -1,6 +1,6 @@
 ﻿using EntityLayer.Concrete;
 
-namespace DataAccessLayer.Abstract
+namespace DataAccsessLayer.Abstract
 {
     public interface IContactDal : IGenericDal<Contact>
     {

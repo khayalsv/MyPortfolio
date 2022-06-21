@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BusinessLayer.Concrete;
+using DataAccsessLayer.EntityFramework;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,9 +10,11 @@ namespace KSPort.ViewComponents.Default
 {
     public class _Home :ViewComponent
     {
+        HomeManager homeManager = new HomeManager(new EfHomeDal());
         public IViewComponentResult Invoke()
         {
-            return View();
+            var values = homeManager.TGetList();
+            return View(values);
         }
     }
 }

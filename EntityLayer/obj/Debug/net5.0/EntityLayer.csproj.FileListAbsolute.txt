@@ -9,3 +9,4 @@ C:\Users\selim\Desktop\MyPortfolio\EntityLayer\obj\Debug\net5.0\EntityLayer.cspr
 C:\Users\selim\Desktop\MyPortfolio\EntityLayer\obj\Debug\net5.0\EntityLayer.dll
 C:\Users\selim\Desktop\MyPortfolio\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll
 C:\Users\selim\Desktop\MyPortfolio\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb
+C:\Users\selim\Desktop\MyPortfolio\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.AssemblyReference.cache

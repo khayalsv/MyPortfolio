@@ -1,8 +1,8 @@
-﻿using DataAccessLayer.Abstract;
-using DataAccessLayer.Repository;
+﻿using DataAccsessLayer.Abstract;
+using DataAccsessLayer.Repository;
 using EntityLayer.Concrete;
 
-namespace DataAccessLayer.EntityFramework
+namespace DataAccsessLayer.EntityFramework
 {
     public class EfContactDal : GenericRepository<Contact>, IContactDal
     {

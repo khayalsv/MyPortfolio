@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq.Expressions;
 
-namespace DataAccessLayer.Abstract
+namespace DataAccsessLayer.Abstract
 {
     public interface IGenericDal<T>
     {

@@ -135,7 +135,6 @@ C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\scopedcss\bundle\KSPo
 C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\KSPort.TagHelpers.input.cache
 C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\KSPort.TagHelpers.output.cache
 C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\KSPort.RazorCoreGenerate.cache
-C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\Razor\Views\Shared\Components\_About\Default.cshtml.g.cs
 C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\Razor\Views\Shared\Components\_Blog\Default.cshtml.g.cs
 C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\Razor\Views\Shared\Components\_Contact\Default.cshtml.g.cs
@@ -160,3 +159,17 @@ C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\KSPort.dll
 C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\ref\KSPort.dll
 C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\KSPort.pdb
 C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\KSPort.genruntimeconfig.cache
+C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\Razor\Views\Default\Index.cshtml.g.cs
+C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\Razor\Areas\Member\Views\Shared\_MemberLayout.cshtml.g.cs
+C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\Razor\Areas\Member\Views\Shared\_MemberLayoutPartial\_FooterPartial.cshtml.g.cs
+C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\Razor\Areas\Member\Views\Shared\_MemberLayoutPartial\_HeaderPartial.cshtml.g.cs
+C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\Razor\Areas\Member\Views\Shared\_MemberLayoutPartial\_Navbar2Partial.cshtml.g.cs
+C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\Razor\Areas\Member\Views\Shared\_MemberLayoutPartial\_NavbarPartial.cshtml.g.cs
+C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\Razor\Areas\Member\Views\Shared\_MemberLayoutPartial\_RightbarPartial.cshtml.g.cs
+C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\Razor\Areas\Member\Views\Shared\_MemberLayoutPartial\_ScriptsPartial.cshtml.g.cs
+C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\Razor\Areas\Member\Views\_ViewImports.cshtml.g.cs
+C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\Razor\Areas\Member\Views\_ViewStart.cshtml.g.cs
+C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\Razor\Areas\Member\Views\Default\Index.cshtml.g.cs
+C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\Razor\Areas\Member\Views\Home\Index.cshtml.g.cs
+C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\Razor\Areas\Member\Views\Home\Create.cshtml.g.cs
+C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\Razor\Areas\Member\Views\Home\Edit.cshtml.g.cs

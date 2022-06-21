@@ -1,0 +1,46 @@
+﻿@using EntityLayer.Concrete
+@model List<Home>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Member/Views/Shared/_MemberLayout.cshtml";
+}
+
+<h1>@ViewBag.asd</h1>
+
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Title</th>
+        <th>Name</th>
+        <th>About</th>
+        <th>Text</th>
+        <th>Facebook</th>
+        <th>Linkedin</th>
+        <th>Instagram</th>
+        <th>Github</th>
+        <th>Image</th>
+        <th>Delete</th>
+        <th>Edit</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+<tr>
+    <th>@item.Id</th>
+    <td>@item.Title</td>
+    <td>@item.Name</td>
+    <td>@item.About</td>
+    <td>@item.Text</td>
+    <td>@item.Facebook</td>
+    <td>@item.Linkedin</td>
+    <td>@item.Instagram</td>
+    <td>@item.Github</td>
+    <td>@item.Image</td>
+    <td><a href="/Member/Home/Delete/@item.Id" class="btn btn-danger">Delete</a></td>
+    <td><a href="/Member/Home/Edit/@item.Id" class="btn btn-warning">Edit</a></td>
+</tr>
+    }
+</table>
+
+<a href="/Member/Home/Create/" class="btn btn-primary">Create new home</a>
