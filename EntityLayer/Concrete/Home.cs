@@ -1,7 +1,10 @@
-﻿using System.Collections.Generic;
+﻿using Microsoft.AspNetCore.Http;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 
 namespace EntityLayer.Concrete
 {
@@ -16,6 +19,9 @@ namespace EntityLayer.Concrete
         public string Linkedin { get; set; }
         public string Instagram { get; set; }
         public string Github { get; set; }
-        public string Image { get; set; }
+        public string ImageUrl { get; set; }
+        
+        [NotMapped]
+        public IFormFile Image { get; set; }
     }
 }

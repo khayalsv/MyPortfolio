@@ -1,9 +1,15 @@
-﻿namespace EntityLayer.Concrete
+﻿using Microsoft.AspNetCore.Http;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace EntityLayer.Concrete
 {
     public class Portfolio
     {
         public int Id { get; set; }
         public string ProjectUrl { get; set; }
-        public string Image { get; set; }
+        public string ImageUrl { get; set; }
+
+        [NotMapped]
+        public IFormFile Image { get; set; }
     }
 }

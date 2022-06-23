@@ -4,6 +4,7 @@ using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -26,9 +27,20 @@ namespace KSPort.Areas.Member.Controllers
         }
 
         [HttpPost]
-        public IActionResult Create(Home p)
-        {       
+        public async Task<IActionResult> Create(Home p)
+        {
+            if (p.Image != null)
+            {
+                var resource = Directory.GetCurrentDirectory();
+                var extension = Path.GetExtension(p.Image.FileName);
+                var imagename = Guid.NewGuid() + extension;
+                var savelocation = resource + "/wwwroot/myimg/" + imagename;
+                var stream = new FileStream(savelocation, FileMode.Create);
+                await p.Image.CopyToAsync(stream);
+                p.ImageUrl = imagename;
+            }
             homeManager.Tadd(p);
+
             return Redirect("/Member/Home/Index");
         }
 
@@ -49,8 +61,18 @@ namespace KSPort.Areas.Member.Controllers
         }
 
         [HttpPost]
-        public IActionResult Edit(Home p)
+        public async Task<IActionResult> Edit(Home p)
         {
+            if (p.Image != null)
+            {
+                var resource = Directory.GetCurrentDirectory();
+                var extension = Path.GetExtension(p.Image.FileName);
+                var imagename = Guid.NewGuid() + extension;
+                var savelocation = resource + "/wwwroot/myimg/" + imagename;
+                var stream = new FileStream(savelocation, FileMode.Create);
+                await p.Image.CopyToAsync(stream);
+                p.ImageUrl = imagename;
+            }
             homeManager.TUpdate(p);
             return Redirect("/Member/Home/Index");
         }

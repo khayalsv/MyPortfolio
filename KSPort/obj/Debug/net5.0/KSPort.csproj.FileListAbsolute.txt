@@ -173,3 +173,12 @@ C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\Razor\Areas\Member\Vi
 C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\Razor\Areas\Member\Views\Home\Index.cshtml.g.cs
 C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\Razor\Areas\Member\Views\Home\Create.cshtml.g.cs
 C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\Razor\Areas\Member\Views\Home\Edit.cshtml.g.cs
+C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\Razor\Areas\Member\Views\About\Index.cshtml.g.cs
+C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\Razor\Areas\Member\Views\About\Create.cshtml.g.cs
+C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\Razor\Areas\Member\Views\About\Edit.cshtml.g.cs
+C:\Users\selim\Desktop\MyPortfolio\KSPort\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\selim\Desktop\MyPortfolio\KSPort\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\selim\Desktop\MyPortfolio\KSPort\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\Razor\Areas\Member\Views\Portfolio\Create.cshtml.g.cs
+C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\Razor\Areas\Member\Views\Portfolio\Index.cshtml.g.cs
+C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\Razor\Areas\Member\Views\Portfolio\Edit.cshtml.g.cs
