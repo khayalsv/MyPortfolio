@@ -1,0 +1,47 @@
+﻿@using EntityLayer.Concrete
+@model List<Skills>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Member/Views/Shared/_MemberLayout.cshtml";
+}
+
+
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Title</th>
+        <th>Text</th>
+        <th>Name 1</th>
+        <th>Ability 1</th>
+        <th>Name 2</th>
+        <th>Ability 2</th>
+        <th>Name 3</th>
+        <th>Ability 3</th>
+        <th>Image</th>
+        <th>Delete</th>
+        <th>Edit</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+<tr>
+    <th>@item.Id</th>
+    <td>@item.Title</td>
+    <td>@item.Text</td>
+    <td>@item.Name1</td>
+    <td>@item.Ability1</td>
+    <td>@item.Name2</td>
+    <td>@item.Ability2</td>
+    <td>@item.Name3</td>
+    <td>@item.Ability3</td>
+    <td>
+        <img width="200" height="150" src="~/myimg/@item.ImageUrl">
+    </td>
+    <td><a href="/Member/Skills/Delete/@item.Id" class="btn btn-danger" onclick="return confirm('Are you delete?')">Delete</a></td>
+    <td><a href="/Member/Skills/Edit/@item.Id" class="btn btn-warning">Edit</a></td>
+</tr>
+    }
+</table>
+
+<a href="/Member/Skills/Create/" class="btn btn-primary">Create new item</a>

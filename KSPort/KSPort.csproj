@@ -28,7 +28,6 @@
     <Folder Include="Areas\Member\Data\" />
     <Folder Include="Areas\Member\Models\" />
     <Folder Include="wwwroot\myimg\" />
-    <Folder Include="wwwroot\myaboutimg\" />
     <Folder Include="wwwroot\Traversal-Dashboard\.git\objects\info\" />
     <Folder Include="wwwroot\Traversal-Dashboard\.git\objects\pack\" />
     <Folder Include="wwwroot\Traversal-Dashboard\.git\refs\tags\" />

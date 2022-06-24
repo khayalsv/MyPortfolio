@@ -182,3 +182,10 @@ C:\Users\selim\Desktop\MyPortfolio\KSPort\bin\Debug\net5.0\System.IO.Pipelines.d
 C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\Razor\Areas\Member\Views\Portfolio\Create.cshtml.g.cs
 C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\Razor\Areas\Member\Views\Portfolio\Index.cshtml.g.cs
 C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\Razor\Areas\Member\Views\Portfolio\Edit.cshtml.g.cs
+C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\Razor\Areas\Member\Views\Blog\Create.cshtml.g.cs
+C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\Razor\Areas\Member\Views\Blog\Edit.cshtml.g.cs
+C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\Razor\Areas\Member\Views\Blog\Index.cshtml.g.cs
+C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\Razor\Areas\Member\Views\Skills\Create.cshtml.g.cs
+C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\Razor\Areas\Member\Views\Skills\Edit.cshtml.g.cs
+C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\Razor\Areas\Member\Views\Skills\Index.cshtml.g.cs
+C:\Users\selim\Desktop\MyPortfolio\KSPort\obj\Debug\net5.0\Razor\Views\Default\AddContact.cshtml.g.cs

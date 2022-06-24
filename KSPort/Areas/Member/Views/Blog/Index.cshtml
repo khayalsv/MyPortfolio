@@ -1,0 +1,39 @@
+﻿@using EntityLayer.Concrete
+@model List<Blog>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Member/Views/Shared/_MemberLayout.cshtml";
+}
+
+
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Title</th>
+        <th>Text</th>
+        <th>Category</th>
+        <th>Date</th>
+        <th>Image</th>
+        <th>Delete</th>
+        <th>Edit</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <th>@item.Id</th>
+            <td>@item.Title</td>
+            <td>@item.Text</td>
+            <td>@item.Category</td>
+            <td>@item.Text</td>
+            <td>
+                <img width="200" height="150" src="~/myimg/@item.ImageUrl">
+            </td>
+            <td><a href="/Member/Blog/Delete/@item.Id" onclick="return confirm('Are you delete?')" class="btn btn-danger">Delete</a></td>
+            <td><a href="/Member/Blog/Edit/@item.Id" class="btn btn-warning">Edit</a></td>
+        </tr>
+    }
+</table>
+
+<a href="/Member/Blog/Create/" class="btn btn-primary">Create new item</a>

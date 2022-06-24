@@ -5,7 +5,7 @@
     Layout = "~/Areas/Member/Views/Shared/_MemberLayout.cshtml";
 }
 
-<form method="post">
+<form method="post" enctype="multipart/form-data">
     <div class="form-group">
         <label>Title</label>
         <input type="text" asp-for="Title" class="form-control" />
@@ -18,13 +18,14 @@
 
     <div class="form-group">
         <label>Total Project</label>
-        <input type="number" asp-for="TotalProject" class="form-control" />
+        <input type="text" asp-for="TotalProject" class="form-control" />
     </div>
 
     <div class="form-group">
         <label>Experience</label>
-        <input type="number" asp-for="Experience" class="form-control" />
+        <input type="text" asp-for="Experience" class="form-control" />
     </div>
+
 
     <div class="form-group">
         <label>Image</label>

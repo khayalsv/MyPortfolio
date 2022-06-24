@@ -31,7 +31,7 @@
             <td>
                 <img width="200" height="150" src="~/myimg/@item.ImageUrl">
             </td>
-            <td><a href="/Member/About/Delete/@item.Id" class="btn btn-danger">Delete</a></td>
+            <td><a href="/Member/About/Delete/@item.Id" onclick="return confirm('Are you delete?')" class="btn btn-danger">Delete</a></td>
             <td><a href="/Member/About/Edit/@item.Id" class="btn btn-warning">Edit</a></td>
         </tr>
     }

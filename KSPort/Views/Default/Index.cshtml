@@ -15,4 +15,5 @@
 
 @await Component.InvokeAsync("_Blog")
 
-@await Component.InvokeAsync("_Contact")
+
+@await Html.PartialAsync("/Views/Default/AddContact.cshtml")

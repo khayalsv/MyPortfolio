@@ -1,0 +1,37 @@
+﻿@model EntityLayer.Concrete.Blog
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/Member/Views/Shared/_MemberLayout.cshtml";
+}
+
+<form method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label>Title</label>
+        <input type="text" asp-for="Title" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Text</label>
+        <input type="text" asp-for="Text" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Category</label>
+        <input type="text" asp-for="Category" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Date</label>
+        <input type="text" asp-for="Date" class="form-control" />
+    </div>
+
+
+    <div class="form-group">
+        <label>Image</label>
+        <input type="file" asp-for="Image" class="form-control" />
+    </div>
+    <br />
+
+    <button class="btn btn-info">Save</button>
+</form>

@@ -16,17 +16,17 @@ namespace BusinessLayer.Concrete
 
         public void Tadd(Blog t)
         {
-            throw new System.NotImplementedException();
+            _blogDal.Insert(t);
         }
 
         public void TDelete(Blog t)
         {
-            throw new System.NotImplementedException();
+            _blogDal.Delete(t);
         }
 
         public Blog TGetByID(int id)
         {
-            throw new System.NotImplementedException();
+            return _blogDal.GetById(id);
         }
 
         public List<Blog> TGetList()
@@ -36,7 +36,7 @@ namespace BusinessLayer.Concrete
 
         public void TUpdate(Blog t)
         {
-            throw new System.NotImplementedException();
+            _blogDal.Update(t);
         }
     }
 }
