@@ -1,0 +1,31 @@
+﻿@using EntityLayer.Concrete
+@model List<Contact>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Member/Views/Shared/_MemberLayout.cshtml";
+}
+
+
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Message</th>
+        <th>Delete</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <th>@item.Id</th>
+            <td>@item.Name</td>
+            <td>@item.Email</td>
+            <td>@item.Message</td>
+
+            <td><a href="/Member/Contact/Delete/@item.Id" class="btn btn-danger" onclick="return confirm('Are you delete?')">Delete</a></td>
+        </tr>
+    }
+</table>
+

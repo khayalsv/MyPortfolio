@@ -26,7 +26,7 @@
             <td>@item.Title</td>
             <td>@item.Text</td>
             <td>@item.Category</td>
-            <td>@item.Text</td>
+            <td>@(((DateTime)item.Date).ToString("dd-MMM-yyyy"))</td>
             <td>
                 <img width="200" height="150" src="~/myimg/@item.ImageUrl">
             </td>

@@ -1,0 +1,72 @@
+﻿@model KSPort.Models.UserRegisterViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <title>KS Register</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <link rel="stylesheet" href="~/web/css/style.css" type="text/css" media="all" />
+</head>
+
+<body>
+    <section class="w3l-login-6">
+        <div class="login-hny">
+            <div class="form-content">
+                <div class="form-right">
+                    <div class="overlay">
+                        <div class="grid-info-form">
+                            <h5>Hello</h5>
+                            <h3>CREATE ACCOUNT </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-left">
+                    <div class="middle">
+                        <h4>Join Us</h4>
+                        <p>Create Your Account</p>
+                    </div>
+                    <form method="post" class="signin-form">
+
+                        <div class="form-input">
+                            <label>Username</label>
+                            <input type="text" asp-for="Username" />
+                            <span asp-validation-for="Username" class="text-danger"></span>
+                        </div>
+                        <div class="form-input">
+                            <label>Password</label>
+                            <input type="password" asp-for="Password" />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+                        <div class="form-input">
+                            <label>Confirm Password</label>
+                            <input type="password" asp-for="ConfirmPassword" />
+                            <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                        </div>
+
+                        <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+
+                        <button class="btn">Create account</button>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+</body>
+
+</html>

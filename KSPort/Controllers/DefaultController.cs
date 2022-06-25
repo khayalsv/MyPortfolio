@@ -20,6 +20,7 @@ namespace KSPort.Controllers
 
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult Index(Contact p)
         {
 
