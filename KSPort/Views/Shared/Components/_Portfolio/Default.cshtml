@@ -10,23 +10,28 @@
                 <h3>My Works</h3>
                 <p>You can see some of my work here.</p>
             </div>
-            
+
             <br />
 
             <div class="portfolio_list wow fadeInUp" data-wow-duration="1s">
                 <ul class="gallery_zoom grid">
                     @foreach (var item in Model)
                     {
-                        <li class="popup grid-item">
-                            <div class="inner">
-                                <div class="entry dizme_tm_portfolio_animation_wrap" data-title="Art Stone" data-category="Popup">
-                                    <a href="@item.ProjectUrl" target="_blank">
-                                        <img src="~/img/thumbs/42-34.jpg" alt="" />
-                                        <div class="main" data-img-url="/myimg/@item.ImageUrl"></div>
-                                    </a>
-                                </div>
+                    <li class="popup grid-item">
+                        <div class="inner">
+                            <div class="entry dizme_tm_portfolio_animation_wrap" data-title="Art Stone" data-category="Popup">
+                                <a href="@item.ProjectUrl" target="_blank">
+                                    <img src="~/img/thumbs/42-34.jpg" alt="" />
+                                    <div class="main" data-img-url="/myimg/@item.ImageUrl"></div>
+                                </a>https://github.com/khayalsv/BlogDemo
                             </div>
-                        </li>
+                            <div class="mobile_title">
+                                <h3>@item.Title</h3>
+                            </div>
+                        </div>
+                        <h5 class="ksrespon">@item.Title</h5>
+
+                    </li>
                     }
 
                 </ul>
@@ -35,6 +40,5 @@
         <div class="brush_1 wow zoomIn" data-wow-duration="1s"><img src="~/img/brushes/portfolio/1.png" alt="" /></div>
         <div class="brush_2 wow fadeInRight" data-wow-duration="1s"><img src="~/img/brushes/portfolio/2.png" alt="" /></div>
     </div>
-</div>  
+</div>
 
- 

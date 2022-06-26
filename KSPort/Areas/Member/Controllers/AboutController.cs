@@ -1,6 +1,7 @@
 ﻿using BusinessLayer.Concrete;
 using DataAccsessLayer.EntityFramework;
 using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -10,6 +11,7 @@ using System.Threading.Tasks;
 
 namespace KSPort.Areas.Member.Controllers
 {
+    [Authorize(Roles ="Admin")]
     [Area("Member")]
     public class AboutController : Controller
     {

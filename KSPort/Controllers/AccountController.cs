@@ -13,12 +13,12 @@ namespace KSPort.Controllers
         private readonly UserManager<IdentityUser> _userManager;
         private readonly SignInManager<IdentityUser> _signInManager;
 
-        public AccountController(UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager)
-        {
-            _userManager = userManager;
-            _signInManager = signInManager;
-        }
 
+        public AccountController(SignInManager<IdentityUser> signInManager, UserManager<IdentityUser> userManager)
+        {
+            _signInManager = signInManager;
+            _userManager = userManager;
+        }
 
         [HttpGet]
         public IActionResult SignUp()
@@ -39,7 +39,7 @@ namespace KSPort.Controllers
 
             if (result.Succeeded)
             {
-                RedirectToAction("SignIn");
+                Redirect("/Account/SignIn");
             }
             else
             {
@@ -49,7 +49,7 @@ namespace KSPort.Controllers
                 }
             }
 
-            return View(p);
+            return Redirect("/Account/SignIn");
         }
 
         [HttpGet]
@@ -77,6 +77,12 @@ namespace KSPort.Controllers
 
             return View();
 
+        }
+
+        public async Task<IActionResult> LogOut()
+        {
+            await _signInManager.SignOutAsync();
+            return Redirect("/Default/Index");
         }
     }
 }

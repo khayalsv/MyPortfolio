@@ -182,6 +182,9 @@ namespace DataAccsessLayer.Migrations
                     b.Property<string>("ProjectUrl")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Title")
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("Id");
 
                     b.ToTable("Portfolios");

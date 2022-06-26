@@ -8,6 +8,7 @@ namespace KSPort.Models
 {
     public class UserRegisterViewModel
     {
+
         [Required]
         public string Username { get; set; }
 

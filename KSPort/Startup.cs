@@ -40,6 +40,8 @@ namespace KSPort
                 options.Password.RequireLowercase = false;
                 options.Password.RequireNonAlphanumeric = false; 
             });
+
+            services.ConfigureApplicationCookie(options => options.LoginPath = "/Account/SignIn");
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -69,7 +71,7 @@ namespace KSPort
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Default}/{action=Index}/{id?}");
             });
 
             app.UseEndpoints(endpoints =>
